@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ option{
+  background: inherit;
+}
+#Location{
+  outline: none;
+  background: #a9dea9;
+}
+
+option:checked,
+option:hover{
+  background-color: rgba(255, 255, 255, 0.56);
+}
